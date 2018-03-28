@@ -1,4 +1,4 @@
-update=27.03.2018 12:27:36
+update=28.03.2018 21:58:17
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,9 +23,11 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=arduino_lib-master
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,5 +61,6 @@ LibName29=opto
 LibName30=atmel
 LibName31=contrib
 LibName32=valves
-[general]
-version=1
+LibName33=arduino_lib-master/arduino
+LibName34=KiCad-SSD1306_OLED-0.91-128x32-master/SSD1306_OLED-0.91-128x32
+LibName35=Rotary-Encoders.pretty-master/Schematic-Symbols/Rotary-Encoders
